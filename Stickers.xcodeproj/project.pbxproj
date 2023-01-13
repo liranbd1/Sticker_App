@@ -7,18 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E18F2122971C9A9000E447C /* CodableSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18F2112971C9A9000E447C /* CodableSticker.swift */; };
+		9E18F2142971D195000E447C /* CollectedStickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18F2132971D195000E447C /* CollectedStickers.swift */; };
+		9E18F2162971D529000E447C /* StickersToShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18F2152971D529000E447C /* StickersToShow.swift */; };
+		9E18F2182971DCFF000E447C /* CollectedStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18F2172971DCFF000E447C /* CollectedStickerView.swift */; };
+		9E18F21C2971E7CF000E447C /* UtilFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18F21B2971E7CF000E447C /* UtilFuncs.swift */; };
+		9E1DD2812960850800BA6AC9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DD2802960850800BA6AC9 /* CameraView.swift */; };
+		9E1DD28329608DD100BA6AC9 /* TransperantBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1DD28229608DD100BA6AC9 /* TransperantBackground.swift */; };
+		9E80F887296217F80009E126 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80F886296217F80009E126 /* PhotoPicker.swift */; };
+		9E80F88929621CC20009E126 /* PickedImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80F88829621CC20009E126 /* PickedImageItem.swift */; };
+		9E80F88B29621D610009E126 /* SticekrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80F88A29621D610009E126 /* SticekrView.swift */; };
+		9E80F88E296226200009E126 /* StickerSelectionPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80F88D296226200009E126 /* StickerSelectionPhotoButton.swift */; };
+		9E80F890296226C70009E126 /* EmotionPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80F88F296226C70009E126 /* EmotionPickerView.swift */; };
 		9E83B910295F21B500D57201 /* StickersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B90F295F21B500D57201 /* StickersApp.swift */; };
 		9E83B912295F21B500D57201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B911295F21B500D57201 /* ContentView.swift */; };
 		9E83B914295F21B600D57201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E83B913295F21B600D57201 /* Assets.xcassets */; };
 		9E83B917295F21B600D57201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E83B916295F21B600D57201 /* Preview Assets.xcassets */; };
+		9E83B920295F232300D57201 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B91F295F232300D57201 /* Sticker.swift */; };
+		9E83B922295F235900D57201 /* StickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B921295F235900D57201 /* StickerRow.swift */; };
+		9E83B924295F259D00D57201 /* AddStickerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B923295F259D00D57201 /* AddStickerButtonView.swift */; };
+		9E83B926295F269C00D57201 /* StickerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B925295F269C00D57201 /* StickerSelectionView.swift */; };
+		9E83B928295F301700D57201 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B927295F301700D57201 /* MainPageView.swift */; };
+		9E83B92C295F356300D57201 /* Exstenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B92B295F356300D57201 /* Exstenstions.swift */; };
+		9E83B92E295F367A00D57201 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83B92D295F367A00D57201 /* BackgroundView.swift */; };
+		9EBB102A2960733100B5F0A2 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB10292960733100B5F0A2 /* ImagePickerView.swift */; };
+		9EBB102C2960744000B5F0A2 /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBB102B2960744000B5F0A2 /* Cordinator.swift */; };
+		9EC34D6E296B4C2800D2CA1D /* AddEmotionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC34D6D296B4C2800D2CA1D /* AddEmotionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E18F2112971C9A9000E447C /* CodableSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableSticker.swift; sourceTree = "<group>"; };
+		9E18F2132971D195000E447C /* CollectedStickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectedStickers.swift; sourceTree = "<group>"; };
+		9E18F2152971D529000E447C /* StickersToShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersToShow.swift; sourceTree = "<group>"; };
+		9E18F2172971DCFF000E447C /* CollectedStickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectedStickerView.swift; sourceTree = "<group>"; };
+		9E18F21B2971E7CF000E447C /* UtilFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilFuncs.swift; sourceTree = "<group>"; };
+		9E1DD27F29607FEC00BA6AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9E1DD2802960850800BA6AC9 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		9E1DD28229608DD100BA6AC9 /* TransperantBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransperantBackground.swift; sourceTree = "<group>"; };
+		9E80F886296217F80009E126 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		9E80F88829621CC20009E126 /* PickedImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickedImageItem.swift; sourceTree = "<group>"; };
+		9E80F88A29621D610009E126 /* SticekrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SticekrView.swift; sourceTree = "<group>"; };
+		9E80F88D296226200009E126 /* StickerSelectionPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionPhotoButton.swift; sourceTree = "<group>"; };
+		9E80F88F296226C70009E126 /* EmotionPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionPickerView.swift; sourceTree = "<group>"; };
 		9E83B90C295F21B500D57201 /* Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E83B90F295F21B500D57201 /* StickersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersApp.swift; sourceTree = "<group>"; };
 		9E83B911295F21B500D57201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E83B913295F21B600D57201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E83B916295F21B600D57201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E83B91F295F232300D57201 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		9E83B921295F235900D57201 /* StickerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerRow.swift; sourceTree = "<group>"; };
+		9E83B923295F259D00D57201 /* AddStickerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStickerButtonView.swift; sourceTree = "<group>"; };
+		9E83B925295F269C00D57201 /* StickerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerSelectionView.swift; sourceTree = "<group>"; };
+		9E83B927295F301700D57201 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		9E83B92B295F356300D57201 /* Exstenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exstenstions.swift; sourceTree = "<group>"; };
+		9E83B92D295F367A00D57201 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		9EBB10292960733100B5F0A2 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		9EBB102B2960744000B5F0A2 /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
+		9EC34D6D296B4C2800D2CA1D /* AddEmotionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmotionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +77,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E80F88C296225E50009E126 /* StickerSelectionGroup */ = {
+			isa = PBXGroup;
+			children = (
+				9E83B925295F269C00D57201 /* StickerSelectionView.swift */,
+				9E80F88A29621D610009E126 /* SticekrView.swift */,
+				9E80F88D296226200009E126 /* StickerSelectionPhotoButton.swift */,
+				9E80F88F296226C70009E126 /* EmotionPickerView.swift */,
+				9EC34D6D296B4C2800D2CA1D /* AddEmotionButton.swift */,
+			);
+			path = StickerSelectionGroup;
+			sourceTree = "<group>";
+		};
 		9E83B903295F21B500D57201 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +108,11 @@
 		9E83B90E295F21B500D57201 /* Stickers */ = {
 			isa = PBXGroup;
 			children = (
+				9E1DD27F29607FEC00BA6AC9 /* Info.plist */,
 				9E83B90F295F21B500D57201 /* StickersApp.swift */,
 				9E83B911295F21B500D57201 /* ContentView.swift */,
+				9E83B91E295F22F900D57201 /* Models */,
+				9E83B91D295F22E700D57201 /* Views */,
 				9E83B913295F21B600D57201 /* Assets.xcassets */,
 				9E83B915295F21B600D57201 /* Preview Content */,
 			);
@@ -65,6 +125,38 @@
 				9E83B916295F21B600D57201 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E83B91D295F22E700D57201 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E80F88C296225E50009E126 /* StickerSelectionGroup */,
+				9E83B921295F235900D57201 /* StickerRow.swift */,
+				9E83B923295F259D00D57201 /* AddStickerButtonView.swift */,
+				9E83B927295F301700D57201 /* MainPageView.swift */,
+				9E83B92D295F367A00D57201 /* BackgroundView.swift */,
+				9E1DD2802960850800BA6AC9 /* CameraView.swift */,
+				9E18F2132971D195000E447C /* CollectedStickers.swift */,
+				9E18F2172971DCFF000E447C /* CollectedStickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E83B91E295F22F900D57201 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E83B91F295F232300D57201 /* Sticker.swift */,
+				9E83B92B295F356300D57201 /* Exstenstions.swift */,
+				9EBB10292960733100B5F0A2 /* ImagePickerView.swift */,
+				9EBB102B2960744000B5F0A2 /* Cordinator.swift */,
+				9E1DD28229608DD100BA6AC9 /* TransperantBackground.swift */,
+				9E80F886296217F80009E126 /* PhotoPicker.swift */,
+				9E80F88829621CC20009E126 /* PickedImageItem.swift */,
+				9E18F2112971C9A9000E447C /* CodableSticker.swift */,
+				9E18F2152971D529000E447C /* StickersToShow.swift */,
+				9E18F21B2971E7CF000E447C /* UtilFuncs.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +229,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E80F887296217F80009E126 /* PhotoPicker.swift in Sources */,
+				9E83B92E295F367A00D57201 /* BackgroundView.swift in Sources */,
+				9E80F890296226C70009E126 /* EmotionPickerView.swift in Sources */,
+				9E83B924295F259D00D57201 /* AddStickerButtonView.swift in Sources */,
+				9E18F2142971D195000E447C /* CollectedStickers.swift in Sources */,
+				9E18F2162971D529000E447C /* StickersToShow.swift in Sources */,
+				9E83B928295F301700D57201 /* MainPageView.swift in Sources */,
+				9E1DD2812960850800BA6AC9 /* CameraView.swift in Sources */,
+				9E80F88E296226200009E126 /* StickerSelectionPhotoButton.swift in Sources */,
+				9E18F2182971DCFF000E447C /* CollectedStickerView.swift in Sources */,
+				9E1DD28329608DD100BA6AC9 /* TransperantBackground.swift in Sources */,
+				9E83B922295F235900D57201 /* StickerRow.swift in Sources */,
+				9EBB102A2960733100B5F0A2 /* ImagePickerView.swift in Sources */,
+				9E18F2122971C9A9000E447C /* CodableSticker.swift in Sources */,
 				9E83B912295F21B500D57201 /* ContentView.swift in Sources */,
+				9E83B92C295F356300D57201 /* Exstenstions.swift in Sources */,
+				9EC34D6E296B4C2800D2CA1D /* AddEmotionButton.swift in Sources */,
+				9E83B920295F232300D57201 /* Sticker.swift in Sources */,
 				9E83B910295F21B500D57201 /* StickersApp.swift in Sources */,
+				9E80F88B29621D610009E126 /* SticekrView.swift in Sources */,
+				9E83B926295F269C00D57201 /* StickerSelectionView.swift in Sources */,
+				9EBB102C2960744000B5F0A2 /* Cordinator.swift in Sources */,
+				9E80F88929621CC20009E126 /* PickedImageItem.swift in Sources */,
+				9E18F21C2971E7CF000E447C /* UtilFuncs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=*]" = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,16 +385,19 @@
 				DEVELOPMENT_TEAM = M4CNG6XBD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need the camera please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight NSCameraUsageDescription";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Liran.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -299,16 +417,19 @@
 				DEVELOPMENT_TEAM = M4CNG6XBD9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need the camera please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight NSCameraUsageDescription";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Liran.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
